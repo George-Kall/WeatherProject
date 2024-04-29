@@ -8,7 +8,9 @@ locations_dict = {
 }
 import requests
 import pandas as pd
-api_key = '7f59c14120fb0695f9ccdf693d149754' 
+import api as apifile
+
+api_key=apifile.api_key
  
 lat = '48.85341' # Use the latitude of your desired location
 lon = '2.3488' # Use the longitude of your desired location
